@@ -9,7 +9,7 @@ bot.on('ready', function() {
 
 });
 
-bot.login('NDc0NjU0MDA2NTk4NDM0ODI3.DkTodA.N4kZpQ1-dyVLrdjV6zENBujmjI4')
+bot.login(process.env.TOKEN);
 
 bot.on('message', message => {
         if (message.content === prefix + "nain"){
